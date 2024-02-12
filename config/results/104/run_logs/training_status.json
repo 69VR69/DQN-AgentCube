@@ -1,0 +1,29 @@
+{
+    "Bob": {
+        "checkpoints": [
+            {
+                "steps": 70389,
+                "file_path": "results\\104\\Bob\\Bob-70389.onnx",
+                "reward": -9.996337731679281,
+                "creation_time": 1707669535.6610773,
+                "auxillary_file_paths": [
+                    "results\\104\\Bob\\Bob-70389.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 70389,
+            "file_path": "results\\104\\Bob.onnx",
+            "reward": -9.996337731679281,
+            "creation_time": 1707669535.6610773,
+            "auxillary_file_paths": [
+                "results\\104\\Bob\\Bob-70389.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.1.1+cpu"
+    }
+}

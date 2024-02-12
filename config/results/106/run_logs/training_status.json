@@ -1,0 +1,65 @@
+{
+    "Bob": {
+        "checkpoints": [
+            {
+                "steps": 1999999,
+                "file_path": "results\\106\\Bob\\Bob-1999999.onnx",
+                "reward": -9.993550246218417,
+                "creation_time": 1707708247.862259,
+                "auxillary_file_paths": [
+                    "results\\106\\Bob\\Bob-1999999.pt"
+                ]
+            },
+            {
+                "steps": 2499999,
+                "file_path": "results\\106\\Bob\\Bob-2499999.onnx",
+                "reward": -9.993602832158407,
+                "creation_time": 1707711093.289071,
+                "auxillary_file_paths": [
+                    "results\\106\\Bob\\Bob-2499999.pt"
+                ]
+            },
+            {
+                "steps": 2999998,
+                "file_path": "results\\106\\Bob\\Bob-2999998.onnx",
+                "reward": -9.993585765072723,
+                "creation_time": 1707713971.9391515,
+                "auxillary_file_paths": [
+                    "results\\106\\Bob\\Bob-2999998.pt"
+                ]
+            },
+            {
+                "steps": 3499998,
+                "file_path": "results\\106\\Bob\\Bob-3499998.onnx",
+                "reward": -9.993380312334027,
+                "creation_time": 1707717330.3954246,
+                "auxillary_file_paths": [
+                    "results\\106\\Bob\\Bob-3499998.pt"
+                ]
+            },
+            {
+                "steps": 3686238,
+                "file_path": "results\\106\\Bob\\Bob-3686238.onnx",
+                "reward": -9.993491742346022,
+                "creation_time": 1707718772.8622928,
+                "auxillary_file_paths": [
+                    "results\\106\\Bob\\Bob-3686238.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 3686238,
+            "file_path": "results\\106\\Bob.onnx",
+            "reward": -9.993491742346022,
+            "creation_time": 1707718772.8622928,
+            "auxillary_file_paths": [
+                "results\\106\\Bob\\Bob-3686238.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.1.1+cpu"
+    }
+}

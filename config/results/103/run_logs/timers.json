@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1707668866",
+        "python_version": "3.9.18 (main, Sep 11 2023, 14:09:26) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\ProgramData\\anaconda3\\envs\\cubeAgentEnv\\Scripts\\mlagents-learn platform_config.yaml --run-id=103 --train",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.1.1+cpu",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1707668886"
+    },
+    "total": 19.4477369,
+    "count": 1,
+    "self": 0.005595799999998263,
+    "children": {
+        "run_training.setup": {
+            "total": 0.08979580000000009,
+            "count": 1,
+            "self": 0.08979580000000009
+        },
+        "TrainerController.start_learning": {
+            "total": 19.3523453,
+            "count": 1,
+            "self": 0.00017109999999931347,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 19.3521587,
+                    "count": 1,
+                    "self": 19.3521587
+                },
+                "TrainerController._save_models": {
+                    "total": 1.5499999999946112e-05,
+                    "count": 1,
+                    "self": 1.5499999999946112e-05
+                }
+            }
+        }
+    }
+}
